@@ -56,6 +56,7 @@ header h1 {
   z-index: 1;
   border: 3px solid #ec7660;
   border-radius: 6px;
+  box-shadow: 4px 4px 5px -1px rgba(224,224,224,0.86);
 }
 
 #box1 {
