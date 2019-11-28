@@ -2,77 +2,83 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewh4ort" content="width=device-width, initial-scale=1.0">
-    <meta htth4-equiv="X-UA-Comh4atible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CanvasJeremy</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header id="header">
-        <img class="logo" src="images/tag-logo.png" alt="">
-        <h1>Student Personas Canvas</h1>
-    </header>
+    <div class="wrapper">
+        <header id="header">
+            <img class="logo" src="images/tag-logo.png" alt="">
+            <h1>Student Personas Canvas</h1>
+        </header>
 
-    <main>
-        <div class="grid">
-            <div id="box1" class="box">
-                <h2 class="titles">Persona</h2>
-                <h3>Name</h3>
-                <h3>Age</h3>
-                <h3>Occupation</h3>
-                <h3>Status</h3>
-                <h3>Location</h3>
-            </div>
-
-            <div id="box2" class="box">
-                <h2 class="titles">Image</h2>
-                <img id="me" src="images/me.jpg" alt="">
-            </div>
-
-            <div id="box3" class="box">
-                <h2 class="titles">Quotes</h2>
-                <h2 id="quote">
-                    "Nothing is impossible for who believes."
-                    <br> Marc 9:23
-                </h2>
-            </div>
-
-            <div id="box4" class="box">
-                <h2 class="titles">Needs</h2>
-                <h3>Your needs here</h3>
-            </div>
-
-            <div id="box5" class="box">
-                <h2 class="titles">Frustrations</h2>
-                <h3>Your frustrations here</h3>
-            </div>
-            <div id="box6" class="box">
-                <h2 class="titles">Biography</h2>
-                <h3>Your biography here</h3>
-            </div>
-
-            <div class="grid2">
-                <div id="box7" class="box">
-                    <h2 class="titles">Keywords</h2>
-                    <h3>Your keywords here</h3>
+        <main>
+            <div class="column">
+                <div class="box">
+                    <h3 class="titles">Persona</h3>
+                    <h4>Name</h4>
+                    <h4>Age</h4>
+                    <h4>Occupation</h4>
+                    <h4>Status</h4>
+                    <h4>Location</h4>
                 </div>
-                <div id="box8" class="box">
-                    <h2 class="titles">Motivations</h2>
-                    <h3>Your motivations here</h3>
+
+                <div id="box-me" class="box">
+                    <h3 class="titles">Image</h3>
+                    <img id="me" src="images/me.jpg" alt="">
                 </div>
-                <div id="box9" class="box">
-                    <h2 class="titles">Interest</h2>
-                    <h3>Your interest here</h3>
-                </div>
-                <div id="box10" class="box">
-                    <h2 class="titles">Dimensions</h2>
-                    <h3>Your dimensions here</h3>
+
+                <div class="box">
+                    <h3 class="titles">Quotes</h3>
+                    <p id="quote">
+                        <q>
+                            Nothing is impossible for who believes.
+                        </q>
+                        <br> Marc 9:23
+                    </p>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer></footer>
+            <div class="column">
+                <div class="box">
+                    <h3 class="titles">Needs</h3>
+                    <h4>Your needs here</h4>
+                </div>
+
+                <div class="box">
+                    <h3 class="titles">Frustrations</h3>
+                    <h4>Your frustrations here</h4>
+                </div>
+                <div class="box">
+                    <h3 class="titles">Biography</h3>
+                    <h4>Your biography here</h4>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <h3 class="titles">Keywords</h3>
+                    <h4>Your keywords here</h4>
+                </div>
+                <div class="box">
+                    <h3 class="titles">Motivations</h3>
+                    <h4>Your motivations here</h4>
+                </div>
+                <div class="box">
+                    <h3 class="titles">Interest</h3>
+                    <h4>Your interest here</h4>
+                </div>
+                <div class="box">
+                    <h3 class="titles">Dimensions</h3>
+                    <h4>Your dimensions here</h4>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
