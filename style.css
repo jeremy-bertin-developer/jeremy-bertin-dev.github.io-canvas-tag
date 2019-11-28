@@ -55,8 +55,16 @@ header h1 {
   top: -25px;
   z-index: 1;
   border: 3px solid #ec7660;
+  background-color: #f9f9f9;
   border-radius: 6px;
   box-shadow: 4px 4px 5px -1px rgba(224,224,224,0.86);
+  transition: transform .2s;
+}
+
+.box:hover {
+    transform: scale(1.2);
+    z-index: 10;
+    transition: transform .2s;
 }
 
 #box1 {
