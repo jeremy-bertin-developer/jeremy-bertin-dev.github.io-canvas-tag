@@ -66,6 +66,10 @@ main .column .box {
   transition: transform 0.2s;
 }
 
+main .column .box1 {
+  min-height: 450px;
+}
+
 /* .box:hover {
   transform: scale(1.2);
   z-index: 10;
